@@ -1,0 +1,84 @@
+.box_input {
+    margin-top: 200px;
+    background: lightblue;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 320px;
+    margin: 0 auto 8.1rem auto;
+    width: 520px;
+    text-align: center;
+}
+
+#remote {
+    padding-top: 5px;
+    background-color: white;
+    margin: 11rem auto 1rem auto;
+    text-align: center;
+    height: 30px;
+    width: 520px;
+}
+
+#judul {
+    padding-top: 5px;
+    font-size: larger;
+    text-align: center;
+}
+
+#inputbox {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 240px;
+    height: 20px;
+    text-align: center;
+}
+
+#btn {
+    width: 150px;
+    height: 30px;
+}
+
+#maptabel {
+    text-align: center;
+    border: 1px;
+    width: 320px;
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.box_index {
+    background: lightblue;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 320px;
+    margin: 10rem auto 8.1rem auto;
+    width: 520px;
+    text-align: center;
+}
+
+#maptabel {
+    text-align: center;
+    border: 1px;
+    width: 320px;
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.box_index {
+    background: lightblue;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 320px;
+    margin: 10rem auto 8.1rem auto;
+    width: 520px;
+    text-align: center;
+}
+#index_btn {
+    width: 170px;
+    height: 40px;
+}
+
+#b {
+    font-weight: bold;
+}
