@@ -4,8 +4,8 @@
 		session_start();
 		include('dbconnect.php');
 	
-		$uname = $_POST['username'];
-		$pwd = $_POST['password'];
+		$uname = mysqli_real_escape_string($dbconn, $_POST['username']);
+		$pwd = mysqli_real_escape_string($dbconn, $_POST['password']);
 	
 		#$query = mysqli_query($dbconn, "SELECT * FROM  'user_list' WHERE username = '$uname' AND password = '$pwd' ");
         $getFromDB = "SELECT * FROM  user_list WHERE username = '$uname' AND password = '$pwd';";
